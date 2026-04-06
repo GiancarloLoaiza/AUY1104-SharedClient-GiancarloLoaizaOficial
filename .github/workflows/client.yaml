@@ -13,7 +13,7 @@ on:
 jobs:
   usar-receta-compartida:
     # Aquí no repetimos los pasos de Docker: delegamos al otro repositorio
-    uses: asanchezo-duoc/AUY1104-SharedWorkflows/.github/workflows/deploy-api.yaml@main
+    uses: GiancarloLoaiza/AUY1104-SharedWorkflows-GiancarloLoaizaOficial/.github/workflows/deploy-api.yaml@main
 
     # Valores que le “pasamos” a la receta (nombre de la imagen y qué versión es)
     with:
